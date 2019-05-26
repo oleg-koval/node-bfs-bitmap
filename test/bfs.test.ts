@@ -52,7 +52,6 @@ describe('Test 3x4 bitmaps', () => {
   assertions.forEach(({ bitmap, expected }) => {
     it(`Expected bitmap: ${expected}`, () => {
       const result = bfs(rows, columns, bitmap);
-      console.log('TCL: result', result);
       expect(result).to.deep.equal(expected);
     });
   });
@@ -126,7 +125,6 @@ describe.skip('Test 182x182 bitmap', () => {
   assertions.forEach(({ bitmap, expected }) => {
     it(`Expected bitmap: ${expected}`, () => {
       const result = bfs(rows, columns, bitmap);
-      console.log('TCL: result', result);
       // expect(result).to.deep.equal(expected);
     });
   });
