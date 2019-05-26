@@ -1,20 +1,29 @@
 {
   "name": "node-bitmap-distance",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0-development",
+  "description": "Solution for the bitmap challenge using Breadth-first search (BFS)",
+  "keywords": [],
+  "homepage": "https://github.com/oleg-koval/node-bfs-bitmap#readme",
+  "bugs": {
+    "url": "https://github.com/oleg-koval/node-bfs-bitmap/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oleg-koval/node-bfs-bitmap.git"
+  },
+  "license": "ISC",
+  "author": "Oleg Koval <kvl.olg@gmail.com>",
   "main": "dist/bfs.js",
   "scripts": {
     "build": "tsc",
-    "serve": "node dist/bfs.js",
-    "watch": "tsc -w",
-    "test": "mocha -r ts-node/register test/**/*.test.ts --reporter spec",
-    "format:fix": "prettier --write src/**/*.ts test/**/*.ts",
     "format": "prettier --list-different src/**/*.ts test/**/*.ts",
-    "lint": "npx tslint --project ."
+    "format:fix": "prettier --write src/**/*.ts test/**/*.ts",
+    "lint": "npx tslint --project .",
+    "semantic-release": "semantic-release",
+    "serve": "node dist/bfs.js",
+    "test": "mocha -r ts-node/register test/**/*.test.ts --reporter spec",
+    "watch": "tsc -w"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@types/node": "^12.0.2"
   },

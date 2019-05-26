@@ -1,5 +1,6 @@
 # node-bfs-bitmap
 
+[![CircleCI](https://circleci.com/gh/oleg-koval/node-bfs-bitmap/tree/master.svg?style=svg)](https://circleci.com/gh/oleg-koval/node-bfs-bitmap/tree/master)
 
 ### Setup
 
@@ -19,3 +20,6 @@ Install dependencies:
 cd node-bfs-bitmap
 npm install
 ```
+
+# TODO:
+- add semantic-release, problem with CLI tool: `ERR! semantic-release Error following repo on CircleCI!`
