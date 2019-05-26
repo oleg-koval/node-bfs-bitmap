@@ -9,7 +9,8 @@
     "watch": "tsc -w",
     "test": "mocha -r ts-node/register test/**/*.test.ts --reporter spec",
     "format:fix": "prettier --write src/**/*.ts test/**/*.ts",
-    "format": "prettier --list-different src/**/*.ts test/**/*.ts"
+    "format": "prettier --list-different src/**/*.ts test/**/*.ts",
+    "lint": "npx tslint --project ."
   },
   "keywords": [],
   "author": "",

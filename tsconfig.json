@@ -8,7 +8,7 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": ".",
-    "strict": false,
+    "strict": true,
     "paths": {
       "*": ["node_modules/*", "src/types/*"]
     },
