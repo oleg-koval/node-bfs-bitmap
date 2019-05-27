@@ -1,5 +1,5 @@
 {
-  "name": "node-bitmap-distance",
+  "name": "node-bfs-bitmap",
   "version": "0.0.0-development",
   "description": "Solution for the bitmap challenge using Breadth-first search (BFS)",
   "keywords": [],
