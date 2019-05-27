@@ -17,6 +17,8 @@ d(p1,p2)=|i1-i2|+|j1-j2|
 
 ![Algorithm Visualization](https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif)
 
+![bfs](http://res.cloudinary.com/dqr2mejhc/image/upload/v1501360746/bfs_sswmez.gif)
+
 We traverse through one entire level of children nodes first, before moving on to traverse through the grandchildren nodes. And we traverse through an entire level of grandchildren nodes before going on to traverse through great-grandchildren nodes.
 
 from [Breaking Down Breadth-First Search](https://medium.com/basecs/breaking-down-breadth-first-search-cebe696709d9)
@@ -59,3 +61,4 @@ npm run examples > output.txt
 # References:
 - [Breadth-First Search (BFS)](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/graph/breadth-first-search) by @trekhleb
 - [Breaking Down Breadth-First Search](https://medium.com/basecs/breaking-down-breadth-first-search-cebe696709d9)
+- [BFS-DFS-Pathfinder](https://github.com/seanperfecto/BFS-DFS-Pathfinder/blob/master/README.md) by @seanperfecto
