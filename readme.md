@@ -28,6 +28,12 @@ To run examples:
 npm run examples
 ```
 
+Write results to the file:
+
+```bash
+npm run examples > output.txt
+```
+
 # TODO:
 - add semantic-release, problem with CLI tool: `ERR! semantic-release Error following repo on CircleCI!`
 - run examples from the file
