@@ -21,5 +21,20 @@ cd node-bfs-bitmap
 npm install
 ```
 
+# Examples:
+To run examples:
+
+```bash
+npm run examples
+```
+
+Write results to the file:
+
+```bash
+npm run examples > output.txt
+```
+
 # TODO:
 - add semantic-release, problem with CLI tool: `ERR! semantic-release Error following repo on CircleCI!`
+- run examples from the file
+- add CLI for user input

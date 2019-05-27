@@ -19,10 +19,10 @@
     "format": "prettier --list-different src/**/*.ts test/**/*.ts",
     "format:fix": "prettier --write src/**/*.ts test/**/*.ts",
     "lint": "npx tslint --project .",
-    "semantic-release": "semantic-release",
     "serve": "node dist/bfs.js",
     "test": "mocha -r ts-node/register test/**/*.test.ts --reporter spec",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "examples": "npm run build && node dist/example/runExamples.js"
   },
   "dependencies": {
     "@types/node": "^12.0.2"
